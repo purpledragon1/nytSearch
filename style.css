@@ -1,17 +1,32 @@
-#NewYorkTimesHeader{
+.jumbotron {
+	border-style: solid;
+	border-color: purple;
+	background-color: blue;
+	text-align: center;
+	font-size: 72px;
+}
+
+/*#NewYorkTimesHeader{
 	border-style: solid;
 	border-color: grey;
 	text-align: center;
+}*/
+
+.panel.panel-heading{
+	background-color: red;
 }
 
+
 #SearchBox {
-	border-style: solid;
 	border-color: red;
 	text-align: center;
 }
 
 #displayResults {
-	border-style: solid;
 	border-color: blue;
 	text-align: left;
+}
+
+h1 {
+	background-color: green;
 }
