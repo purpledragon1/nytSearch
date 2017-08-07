@@ -1,7 +1,7 @@
 .jumbotron {
 	border-style: solid;
 	border-color: purple;
-	background-color: blue;
+	background-color: grey;
 	text-align: center;
 	font-size: 72px;
 }
@@ -12,8 +12,9 @@
 	text-align: center;
 }*/
 
-.panel.panel-heading{
+.panel-heading{
 	background-color: red;
+	color: red;
 }
 
 
@@ -29,4 +30,11 @@
 
 h1 {
 	background-color: green;
+}
+
+h3.SearchBox {
+	color: white;
+	background-color:navy;
+	padding-top:10px;
+	padding-bottom:10px;
 }
