@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Ny Times</title>
-
+	<link rel='stylesheet' type='text/css' href='style.css'/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   </head>
+   <body>
   <div id ="NewYorkTimesHeader">
   </div>
-
+  <div id = "SearchBox">
   <form id ="SearchParameters">
-    
     <label = "SearchTerm"> Search </label>
     <input type = "text" id = "NumberOfRecords">
     <label = "NumberRecords"> Number of Records </label>
@@ -20,10 +20,9 @@
     <label = "EndYear"> End Year </label>
     <input type = "text" id = "searchTerms">
     <h2><input id = "Search" type= "submit" value = "Search"></h2>
-
+    <h2><input id = "Clear" type= "submit" value = "Clear"></h2>
   </form>
-
-  <body>
-
+</div>
+	<script type = "text/javascript" src ="logic.js"> </script>
   </body>
 </html>
